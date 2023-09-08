@@ -6,7 +6,7 @@ void f(int *a, int n){
     for(int i=0; i<n; i++){
 
         while(!s.empty() and s.top() <= a[i]){
-            s.pop();
+            s.pop() ;
         }
         if(s.empty()){
             // cout<<-1<<" ";
